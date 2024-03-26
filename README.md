@@ -2647,9 +2647,30 @@ Create contact.html
 ```
 python manage.py makemigrations
 ```
+![image](https://github.com/JPK2001/Learning-Django/assets/115308301/84545ac2-5458-4883-838d-06be069b6eec)
 
 ```
 python manage.py migrate
 ```
+![image](https://github.com/JPK2001/Learning-Django/assets/115308301/7c167c27-b715-424a-8643-ffcd70d694f2)
+
+# Creating an admin user
+First we’ll need to create a user who can login to the admin site. Run the following command:
+
+$ python manage.py createsuperuser
+Enter your desired username and press enter.
+
+Username: admin
+You will then be prompted for your desired email address:
+
+Email address: admin@example.com
+The final step is to enter your password. You will be asked to enter your password twice, the second time as a confirmation of the first.
+
+Password: **********
+Password (again): *********
+Superuser created successfully.
+![image](https://github.com/JPK2001/Learning-Django/assets/115308301/09b00dfe-7248-4c27-b19a-84f0e94fb31a)
+![image](https://github.com/JPK2001/Learning-Django/assets/115308301/2f254575-0784-4b72-8def-ca207645fed6)
+
 
 
