@@ -1,3 +1,5 @@
+# Step 2: Building the App.
+
 # Enter inside the folder “student_management_project” and create the app “student_management_app”.
 ```
 python manage.py startapp student_management_app
